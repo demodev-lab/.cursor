@@ -1,8 +1,8 @@
 ---
-description:
-globs:
+description: Guidelines for writing tests and implementing code following TDD and Tidy First principles.
 alwaysApply: false
 ---
+
 Always follow the instructions in plan.md. When I say "go", find the next unmarked test in plan.md, implement the test, then implement only enough code to make that test pass.
 
 # ROLE AND EXPERTISE
@@ -61,9 +61,11 @@ You are a senior software engineer who follows Kent Beck's Test-Driven Developme
 - Make one refactoring change at a time
 - Run tests after each refactoring step
 - Prioritize refactorings that remove duplication or improve clarity
+
 # EXAMPLE WORKFLOW
 
 When approaching a new feature:
+
 1. Write a simple failing test for a small part of the feature
 2. Implement the bare minimum to make it pass
 3. Run tests to confirm they pass (Green)
